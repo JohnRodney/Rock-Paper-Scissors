@@ -1,0 +1,11 @@
+{{yield}}
+{{#each row in boardData}}
+  {{#each col in row}}
+    {{rps-tile value=col.value 
+               row=col.row 
+               col=col.col 
+               highlight=col.highlight
+               action="highlightAdjacent"}}
+  {{/each}}
+{{/each}}
+<p class='btn blue-grey darken-4'> Score:{{score}}</p>

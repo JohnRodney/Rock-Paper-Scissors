@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  box-shadow: 1px 1px 10px black;
+  z-index: 1;
+}
+.header .btn{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+.play-area{
+  width: 100%;
+  height: 90%;
+  top: 10%;
+  position: fixed;
+  z-index: 0;
+  background-image: url('/assets/images/bg.jpg');
+}
+.rps-board{
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, .7);
+  top: 10%;
+  left: 25%;
+  color: white;
+  text-align: center;
+}
+.tile{
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+}
+.scissors{
+  background-image: url('/assets/images/scissors.png');
+}
+.rock{
+  background-image: url('/assets/images/rock.png');
+}
+.paper{
+  background-image: url('/assets/images/paper.png');
+}
+.tile{
+  margin-left: 1.3%;
+  margin-top: 1.3%;
+  width: 11%;
+  height: 10%;
+  float: left;
+}
+.tile:hover{
+  background-color: rgba(0, 240, 0, .7);
+}
+.highlight{
+  background-color: rgba(255, 0, 0, .3);
+}
