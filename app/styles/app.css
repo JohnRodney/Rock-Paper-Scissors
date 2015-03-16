@@ -22,7 +22,7 @@
   top: 10%;
   position: fixed;
   z-index: 0;
-  background-image: url('/assets/images/bg.jpg');
+  //background-image: url('/assets/images/bg.jpg');
 }
 .rps-board{
   height: 80%;
@@ -62,4 +62,8 @@
 }
 .highlight{
   background-color: rgba(255, 0, 0, .3);
+}
+.moving-background{
+  position: absolute;
+  z-index: 1;
 }
