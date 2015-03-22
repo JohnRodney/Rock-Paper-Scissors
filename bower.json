@@ -12,7 +12,8 @@
     "ember-qunit": "0.2.8",
     "ember-qunit-notifications": "0.0.7",
     "qunit": "~1.17.1",
-    "materialize": "~0.95.3"
+    "materialize": "~0.95.3",
+    "proton-1.0.0.min": "http://a-jie.github.io/Proton/build/proton-1.0.0.min.js"
   },
   "resolutions": {
     "jquery": ">= 1.7.0 < 2.2.0"

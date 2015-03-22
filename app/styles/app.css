@@ -42,13 +42,13 @@
   transition: 1s ease-in-out;
 }
 .scissors{
-  background-image: url('/assets/images/scissors.png');
+  background-image: url('./images/scissors.png');
 }
 .rock{
-  background-image: url('/assets/images/rock.png');
+  background-image: url('./images/rock.png');
 }
 .paper{
-  background-image: url('/assets/images/paper.png');
+  background-image: url('./images/paper.png');
 }
 .tile{
   margin-left: 1.3%;

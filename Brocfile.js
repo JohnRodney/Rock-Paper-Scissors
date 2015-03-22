@@ -20,4 +20,5 @@ var app = new EmberApp();
 // Import materialize
 app.import('bower_components/materialize/bin/materialize.js');
 app.import('bower_components/materialize/bin/materialize.css');
+app.import('bower_components/proton-1.0.0.min/index.js');
 module.exports = app.toTree();

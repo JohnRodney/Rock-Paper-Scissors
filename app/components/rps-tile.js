@@ -19,6 +19,9 @@ export default Ember.Component.extend({
   click(){
     this.send('checkAdjacent');
   },
+  touchEnd(){
+    this.send('checkAdjacent');
+  },
   actions: {
     checkAdjacent(){
       this.sendAction('action', {row: this.row, col: this.col, value: this.value});
